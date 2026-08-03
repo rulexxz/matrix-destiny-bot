@@ -11,7 +11,9 @@ from telegram.ext import (
 # ==========================
 # ВСТАВЬ СЮДА ТОКЕН БОТА
 # ==========================
-TOKEN = "8890250236:AAFBzcIzl0yBxqwCFbHhljug4MD9HbGr1B8"
+import os
+
+TOKEN = os.getenv("BOT_TOKEN")
 
 # ==========================
 # СЮДА ПОТОМ ВСТАВИМ ID АННЫ
