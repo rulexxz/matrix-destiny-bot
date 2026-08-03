@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# PyCharm
+.idea/
+*.iml
+
+# Windows
+Thumbs.db
+Desktop.ini
